@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-sccale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/media_mobile.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/media_tablet.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/media_desktop.css">
+    <link rel="stylesheet" href="assets/js/scroll/jquery.mCustomScrollbar.css">
+</head>
+
+<body>
+    <!-- /*============ item Header =============*/ -->
+    <header class="l-header">
+        <a href="#">
+            <div class="l-lang-btn_main">
+                <div class="lang-icon"></div>
+            </div>
+        </a>
+        <div class="l-header__box-inline">
+            <div class="l-header__box-flex">
+                <nav class="l-main-nav">
+                    <ul class="nav__ul">
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-1"></div>
+                            </li>
+                        </a>
+                        <!-- #c3aa57 to #feeb90-->
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-2"></div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-3"></div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-4"></div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-5"></div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-6"></div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-7"></div>
+                            </li>
+                        </a>
+                    </ul>
+                </nav>
+                <a href="#">
+                    <div class="l-logo-box">
+                        <div class="logo-box__logo_big">
+                            <img src="assets/img/main/main_logo.png">
+                        </div>
+                        <div class="logo-box__slogan_big"></div>
+                    </div>
+                </a>
+                <nav class="l-main-nav">
+                    <ul class="nav__ul">
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-8"></div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-9"></div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-10"></div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-11"></div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-12"></div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-13"></div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <div class="nav-icon nav-icon-14"></div>
+                            </li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <a href="#">
+            <div class="l-account-btn_main">
+                <div class="account-icon"></div>
+            </div>
+        </a>
+    </header>
+    <!-- /*============ END Header ==============*/ -->
+    <!-- /*============ item Left-Side ==========*/ -->
+    <!-- /*============ END Left-Side ===========*/ -->
+    <!-- /*============ item Main ===============*/ -->
+    <main class="l-main" id="store-main">
+   
+        <!--============= item company ============= -->
+        <section class="l-company">
+            <!--============= item company-header ============= -->
+            <div class="company__header">
+                <div class="company__name-box b-box">
+                    <h2 class="company-name">La Moda</h2>
+                </div>
+                <div class="company__avatar-box">
+                    <img class="company-avatar" src="assets/img/store-img/ava.png">
+                    <div class="b-online-pointer"></div>
+                </div>
+                <div class="b-box">
+                    <div class="company__header-btn-1">
+                        <a href="#">
+                            <div class="b-btn">
+                                Написать продавцу
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="b-btn">
+                                +
+                            </div>
+                        </a>
+                    </div>
+                    <div class="company__header-btn-2">
+                        <a href="javascript:void(0)" onclick="CompanyOptionShow()">
+                            <div class="option-btn b-btn">
+                                <img src="assets/img/main/settings.png">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="b-btn">
+                                Магазин
+                            </div>
+                        </a>
+                        <a href="javascript:void(0)" onclick="showBlog()">
+                            <div class="blog-btn b-btn">
+                                Блог
+                                <div class="blog-btn__indicator"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="company-option b-box" id="option_invisible">
+                        <a href="javascript:void(0)" onclick="PopUpShow()">
+                            <div class="b-btn">
+                                Изменить обложку
+                            </div>
+                        </a>
+                        <a href="javascript:void(0)" onclick="PopUpShow()">
+                            <div class="b-btn">
+                                Изменить аватар
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="status">
+                <div class="status_input">
+                    <input type="text" name="" placeholder="Введите Ваш статус" class="status_ii">
+                    <input type="submit" value="Ok" class="status_ib b-btn"></input>
+                </div>
+                <div class="status_output">
+                    <p>Сюда выводится статус</p>
+                </div>
+                    
+                </div>
+                <!--============= END company-header ============= -->
+                <!--============= item company-info ============= -->
+                <div class="company-box__info-box">
+                </div>
+                <!--============= END company-info ============= -->
+                <!--============= item company-followers ============= -->
+                <div class="company-box__followers-box">
+                    <div class="follower-box">
+                    </div>
+                </div>
+                <!--============= END company-followers ============= -->
+                <!--============= item company-products ============= -->
+                <!--============= END company-products ============= -->
+        </section>
+        <!--============= END company-box ============= -->
+        <!--============= item main__center ============= -->
+        <!--============= item blog ============= -->
+
+        <section class="l-blog scroll" id="l-blog_visible">
+            <!--============= item new-post ============= -->
+            <form class="l-blog__new-post b-box">
+                <input class="new-post__text" type="text" name="post-text" placeholder="Новая запись">
+                <div class="new-post__attached">
+                    <div class="new-post__image">
+                        <img src="">
+                    </div>
+                    <div class="new-post__smile">
+                        <img src="">
+                    </div>
+                    <input class="b-btn" type="button" name="send-new-post" value="Отправить">
+                </div>
+            </form>
+            <!--============= END new-post ============= -->
+            <!--============= item post ============= -->
+            <div class="blog__post b-box">
+                <div class="post__header">
+                    <div class="post-writer">
+                        <img class="post-writer__avatar" src="assets/img/store-img/ava.png">
+                        <div class="b-online-pointer b-online-pointer_mini"></div>
+                        <h3 class="post-writer__name">La Moda</h3>
+                    </div>
+                </div>
+                <!--============= item post__content ============= -->
+                <p class="post__text">
+                    Навстречу лету! Подготовка к отпуску – занятие приятное и увлекательное, когда не требует спешки. Начало мая идеально подходит, чтобы детально спланировать свой летний маршрут и продумать содержимое багажа. А если уже сидите на чемоданах, наша подборка поможет проверить, не забыли ли вы что-нибудь.
+                </p>
+                <div class="post__image-box group" id="collage">
+                    <img class="post-img" src="assets/img/post-img/1.jpg">
+                    <img class="post-img" src="assets/img/post-img/2.jpg">
+                    <img class="post-img" src="assets/img/post-img/3.jpg">
+                    <img class="post-img" src="assets/img/post-img/4.jpg">
+                    <img class="post-img" src="assets/img/post-img/5.jpg">
+                </div>
+                <!--============= END post__content ============= -->
+                <!--============= item post__footer ============= -->
+                <div class="post__footer">
+                    <div class="post__btn like-btn">
+                        Like
+                        <div class="like-num">3</div>
+                    </div>
+                    <div class="post__btn share-btn">
+                        Поделиться
+                    </div>
+                    <div class="post__btn comment-btn">
+                        Комментарии
+                        <div class="comment-num"></div>
+                    </div>
+                    <div class="post__btn option-btn">
+                        <img src="assets/img/main/settings.png">
+                    </div>
+                </div>
+                <!--============= END post__footer ============= -->
+            </div>
+            <!--============= END post ============= -->
+        </section>
+        <!--============= END blog ============= -->
+        <!--============= END main__center ============= -->
+        <!--============= item main__right-side ============= -->
+        <!--============= END main__right-side ============= -->
+    </main>
+    <!-- /*============ END Main ================*/ -->
+    <!-- /*============ item Right-Side =========*/ -->
+    <!-- /*============ END Right-Side ==========*/ -->
+    <!-- /*============ item Footer =============*/ -->
+    <footer class="l-footer">
+        <div class="l-footer__copy">
+            <a href="#"><small>Тех. Поддержка</small></a>
+        </div>
+
+         <div class="l-footer__copy">
+            <a href="#"><small>Договор</small></a>
+        </div>
+
+         <div class="l-footer__copy">
+            <a href="#"><small>Empire Global Group &copy; 2017</small></a>
+        </div>
+
+         <div class="l-footer__copy">
+            <a href="#"><small>FAQ</small></a>
+        </div>
+
+         <div class="l-footer__copy">
+            <a href="#"><small>Обратная связь</small></a>
+        </div>
+
+         </footer>
+    <!-- /*============ END Footer ==============*/ -->
+    <div class="l-footer__chat_main">
+        <div class="l-footer__chat">
+            <div class="chat_main">
+                <div class="main_chat_head"><a href="#">CHAT</a></div>
+                <div class="main_chat_telo"></div>
+                <div class="main_chat_area">
+                    <textarea id="mainChatTextArea" name="mainChatTextArea" onkeyup="if (event.keyCode == 13) addMessageToChat(); "></textarea>
+                </div>
+                <div id="main_chat_users_list" name="main_chat_users_list" class="main_chat_users">
+                </div>
+            </div>
+        </div>
+        <audio id="new_msg_sound" name="new_msg_sound">
+            <source src="http://empiregg.com/sounds/new_chat_message.mp3"></source>
+        </audio>
+    </div>
+    <!--============= item popup ============= -->
+    <div class="b-popup" id="store-backgr">
+        <div class="b-popup-content">
+            <a href="javascript:void(0)" onclick="storeBackgr()">
+                <div class="b-btn">Выбрать обложку</div>
+            </a>
+            <a href="javascript:void(0)" onclick="PopUpHide()">
+                <div class="b-btn">Hide popup</div>
+            </a>
+        </div>
+    </div>
+    <!--============= END popup ============= -->
+    <!--============= item js ============= -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!--============= END js ============= -->
+    <!--============= item script-scroll ============= -->
+    <script src="assets/js/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script>
+    (function($) {
+        $(window).load(function() {
+
+            $(".scroll").mCustomScrollbar({
+                theme: "dark-thin"
+            });
+
+        });
+    })(jQuery);
+    </script>
+    <!--============= END script-scroll ============= -->
+    <!--============= item script-collage ============= -->
+    <script>
+    window.onload = function() {
+
+        var collage = document.getElementById('collage');
+        var images = collage.getElementsByTagName('img');
+        var options = {
+            averageRowHeight: 175,
+            gap: 3
+        };
+        var widths = [],
+            rows = [],
+            rowNumber = 0,
+            index = 0;
+        for (var i = 0; i < images.length; i++) {
+            widths.push(Math.round(images[i].width / images[i].height * options.averageRowHeight));
+        }
+        Array.prototype.sum = function() {
+            return this.reduce(function(prev, current) {
+                return +current + prev;
+            }, 0);
+        }
+        while (rowNumber < Math.ceil(widths.sum() / collage.clientWidth)) {
+            rows[rowNumber] = [];
+            while (index < widths.length && rows[rowNumber].sum() + (rows[rowNumber].length * options.gap) < collage.clientWidth + options.gap) {
+                rows[rowNumber].push(widths[index]);
+                index++;
+                if (index == widths.length - 1) {
+                    rows[rowNumber].push(widths[index]);
+                    rowNumber++;
+                    break;
+                }
+            }
+            rowNumber++;
+        }
+        index = 0;
+        for (var i = 0; i < rows.length; i++) {
+            for (var j = 0; j < rows[i].length; j++) {
+                images[index].style.width = rows[i][j] * ((collage.clientWidth - ((rows[i].length - 1) * options.gap)) / rows[i].sum()) + 'px';
+                images[index].style.height = ((collage.clientWidth - ((rows[i].length - 1) * options.gap)) / rows[i].sum()) * options.averageRowHeight + 'px';
+                if (j < rows[i].length - 1) images[index].style.marginRight = options.gap + 'px';
+                if (i < rows.length - 1) images[index].style.marginBottom = options.gap + 'px';
+                index++;
+            }
+        }
+    }
+    </script>
+    <!--============= END script-collage ============= -->
+    <!--============= item script-show-blog ============= -->
+    <script>
+    function showBlog() {
+        var blog = document.getElementsByClassName("l-blog");
+        if (blog[0].id == "l-blog_visible") {
+            blog[0].id = "l-blog_invisible";
+        } else {
+            blog[0].id = "l-blog_visible";
+        }
+    }
+    </script>
+    <!--============= END script-show-blog ============= -->
+    <!--============= item script-company-option ============= -->
+    <script>
+    function CompanyOptionShow() {
+        var option = document.getElementsByClassName("company-option");
+        if (option[0].id == "option_visible") {
+            option[0].id = "option_invisible";
+        } else {
+            option[0].id = "option_visible";
+        }
+    }
+    </script>
+    <!--============= END script-company-option ============= -->
+    <!--============= item script-popup ============= -->
+    <script>
+    function PopUpShow() {
+        $("#store-backgr").show();
+    }
+
+    function PopUpHide() {
+        $("#store-backgr").hide();
+    }
+    </script>
+    <!--============= END script-popup ============= -->
+</body>
+
+</html>

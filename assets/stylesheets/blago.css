@@ -1,0 +1,121 @@
+/* line 1, blago.sass */
+body {
+  width: 100%;
+  height: 100%; }
+
+/* line 5, blago.sass */
+.wrapper {
+  height: 100%;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 75px; }
+
+/* line 12, blago.sass */
+.wrapper__top-table {
+  border: solid;
+  border-width: 2px;
+  width: 100%;
+  text-align: center;
+  min-height: 150px;
+  max-width: calc(100% - 4px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+/* line 22, blago.sass */
+.wrapper__top-table > p {
+  text-align: left;
+  padding-top: 50px;
+  margin-left: 50px; }
+
+/* line 27, blago.sass */
+.wrapper__top-table > a {
+  text-decoration: none;
+  border: solid;
+  margin: 93px 10px 25px 0px;
+  color: black;
+  border-width: 2px;
+  padding: 6px; }
+
+/* line 36, blago.sass */
+.wrapper__top-table > a:hover {
+  border-width: 3px; }
+
+/* line 39, blago.sass */
+.wrapper__top-table > a:active {
+  border-width: 1px; }
+
+/* line 42, blago.sass */
+.wrapper__bottom-table {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+/* line 48, blago.sass */
+.wrapper__bottom-table__cell {
+  height: 100px;
+  width: 28.5%;
+  min-width: 200px;
+  border: solid;
+  border-width: 2px;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/* line 59, blago.sass */
+.wrapper__bottom-table__cell > a {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: black; }
+
+/* line 70, blago.sass */
+.wrapper__bottom-table__cell_2 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative; }
+
+/* line 75, blago.sass */
+.wrapper__bottom-table__cell__a {
+  border: solid;
+  color: black;
+  border-width: 2px;
+  padding: 6px;
+  height: 15px !important;
+  width: 100px !important;
+  margin-bottom: 11px;
+  position: absolute;
+  top: 60px; }
+
+/* line 86, blago.sass */
+.wrapper__bottom-table__cell_2 > a > h1 {
+  position: absolute;
+  top: 5px; }
+
+/*# sourceMappingURL=blago.css.map */
