@@ -1,6 +1,12 @@
+html
+	width: 100%
+	height: 100%
+	min-height: 100%
+
 body
 	width: 100%
 	height: 100%
+	min-height: 100%
 
 .wrapper
 	display: inline-flex
@@ -9,21 +15,25 @@ body
 	flex-direction: column
 	width: 100%
 	height: 100%
-	position: relative
-
+		
 .wrapper__top
 	display: flex
-	justify-content: center
+	justify-content: flex-end
 	align-items: center
 	flex-direction: column
-	top: 35%
-	position: absolute
-	
+	height: 37%
+		
 .wrapper__top__h1
 	font-size: 50px
 
 .wrapper__top_h
 	color: rgba(241,231,103,1)
+
+.wrapper__top__lang
+	display: flex
+	justify-content: space-between
+	width: 100%
+	flex-wrap: wrap
 
 .wrapper__top__lang__box>img
 	height: 35px
@@ -33,17 +43,34 @@ body
 	height: 33px
 	width: 33px
 
+.wrapper__top__text
+	font-style: italic
+	color: #fbd727
+
 .wrapper__top__buttons
-	margin-top: 20px	
+	margin-top: 20px
+	display: flex
+	justify-content: space-between
+	width: 60%
+	flex-wrap: wrap
 
 .wrapper__top__buttons__button
 	padding: 5px 40px
-	margin: 0px 40px
+	// margin: 0px 40px
 	border: solid
 	border-width: 2px
 	border-radius: 3px 
 	text-decoration: none
 	color: black
+
+.wrapper__center_mod>a>h2:hover
+	border: solid
+	border-width: 1px
+	border-color: #13a7a7
+	border-radius: 5px
+	margin-top: -2px
+	padding-bottom: -2px
+	margin-right: -2px
 
 .wrapper__center
 	display: flex
@@ -51,23 +78,31 @@ body
 	justify-content: space-around
 	align-items: center
 	width: 100%
-	margin-top: 5%
+	height: 35%
+	align-items: flex-start
+	flex-wrap: wrap
 
 .wrapper__center_mod
 	display: flex
 	flex-direction: column
 	align-items: center
 
-.wrapper__center_mod>h2
+.wrapper__center_mod>a>h2
 	color: #13a7a7
 	font-size: 30px
 	margin-bottom: 20px
+	padding: 2px
+
+.wrapper__center_mod>a
+	text-decoration: none
 
 .wrapper__footer
 	display: flex
 	flex-direction: column
 	align-items: center
+	margin-bottom: 20px
 
-.wrapper__footer__top>img
+.wrapper__footer__top>a>img
 	height: 30px
 	width: 30px
+	border-radius: 50%
