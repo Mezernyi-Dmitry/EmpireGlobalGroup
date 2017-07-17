@@ -1,0 +1,31 @@
+/* line 1, form2.sass */
+html { width: 100%; height: 100%; }
+
+/* line 5, form2.sass */
+body { width: 100%; height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+/* line 13, form2.sass */
+.wrapper { width: 100%; max-width: 600px; }
+
+/* line 17, form2.sass */
+h1 { text-align: center; font-size: 2em !important; }
+
+/* line 21, form2.sass */
+.wrapper__table { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+/* line 28, form2.sass */
+.wrapper__table__row { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; height: 100px; margin-top: 20px; width: 100%; }
+
+/* line 37, form2.sass */
+.wrapper__table__row__1 { width: 15%; height: 20px; border: solid; border-width: 1px; padding: 5px; text-align: center; }
+
+/* line 45, form2.sass */
+.wrapper__table__row__1 > a { text-decoration: none; color: black; }
+
+/* line 49, form2.sass */
+.wrapper__table__row__2 { width: 75%; height: 100%; border: solid; border-width: 1px; padding: 5px; text-align: center; }
+
+/* line 57, form2.sass */
+.wrapper__p { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-top: 30px; border: solid; border-width: 1px; padding: 10px; }
+
+/*# sourceMappingURL=form2.css.map */

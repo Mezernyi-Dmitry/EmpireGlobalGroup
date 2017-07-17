@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Регистрация</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/form3.css">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/reset.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="assets/js/validation/dist/validate.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+
+		<h1>EMPIRE GLOBAL GROUP</h1>
+
+		<form class="wrapper__form">
+			<div class="wrapper__form__row">
+				<input type="name" name="email" required>
+				<p>Фамилия</p>
+			</div>
+
+			<div class="wrapper__form__row">
+				<input type="name" name="password" required>
+				<p>Имя</p>
+			</div>
+
+			<div class="wrapper__form__row">
+				<input type="name" name="password" required>
+				<p>Отчество</p>
+			</div>
+
+			<div class="wrapper__form__row">
+				<input type="text" name="text" required>
+				<p>Дата рождения</p>
+			</div>
+
+				<div class="wrapper__form__row">
+				<input type="text" name="text" required>
+				<p>Cерия номер паспорта</p>
+			</div>
+
+				<div class="wrapper__form__row">
+				<input type="text" name="text" required>
+				<p>Страна</p>
+			</div>
+
+				<div class="wrapper__form__row">
+				<input type="text" name="text" required>
+				<p>Город</p>
+			</div>
+
+				<div class="wrapper__form__row">
+				<input type="text" name="text" required>
+				<p>Почтовый индекс</p>
+			</div>
+
+				<div class="wrapper__form__row">
+				<input type="text" name="text" required>
+				<p>Адрес</p>
+			</div>
+
+				<div class="wrapper__form__row">
+				<input type="text" name="text" required>
+				<p>телефон</p>
+			</div>
+
+				<div class="wrapper__form__row">
+				<input class="wrapper__form__row_file" type="file" name="text" required>
+				<p>Прикрепить документы</p>
+			</div>
+
+			<div class="wrapper__form__cb"><input type="checkbox" value="" name="">
+			<p>Я полностью принимаю условия пользовательского соглашения</p></div>
+
+			<script>
+			$(".wrapper__form").validate();
+			</script>
+
+			<div class="wrapper__form__reg"><!-- <a href="#">РЕГИСТРАЦИЯ</a> --><input type="submit" name="ok" value="Запомнить данные и перейти к оплате"></div>
+
+		</form>
+
+		<div class="wrapper_attention"><p>Важно! Значения данных паспорта можно ввеститолько однажды. Будьте внимательны при заполнении полей.</p></div>
+</body>
+</html>

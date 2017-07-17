@@ -1,0 +1,122 @@
+/* line 1, form3.sass */
+html {
+  width: 100%;
+  height: 100%; }
+
+/* line 5, form3.sass */
+body {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/* line 13, form3.sass */
+.wrapper {
+  width: 100%;
+  max-width: 520px; }
+
+/* line 17, form3.sass */
+h1 {
+  text-align: center;
+  font-size: 2em !important; }
+
+/* line 21, form3.sass */
+.wrapper__form {
+  width: 100%;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+/* line 28, form3.sass */
+.wrapper__form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 20px; }
+
+/* line 34, form3.sass */
+.wrapper__form__reg {
+  width: 100%; }
+
+/* line 38, form3.sass */
+.wrapper__form__reg > input {
+  float: left;
+  padding: 5px;
+  border: solid;
+  border-width: 1px;
+  color: green;
+  text-decoration: none;
+  background-color: white;
+  font-width: bold;
+  border-color: black; }
+
+/* line 49, form3.sass */
+.wrapper__form__row > input {
+  width: 50%; }
+
+/* line 52, form3.sass */
+.wrapper__form__row > p {
+  width: 48%;
+  text-align: left;
+  margin-left: 2%;
+  height: 100%; }
+
+/* line 58, form3.sass */
+.wrapper__form__cb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/* line 64, form3.sass */
+.wrapper_attention {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  border: solid;
+  border-width: 1px;
+  padding: 10px; }
+
+/*# sourceMappingURL=form3.css.map */

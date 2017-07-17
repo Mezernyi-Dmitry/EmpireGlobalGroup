@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Регистрация</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/form1.css">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/reset.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="assets/js/validation/dist/validate.min.js"></script>
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<h1>EMPIRE GLOBAL GROUP</h1>
+
+		<form class="wrapper__form">
+			<div class="wrapper__form__row">
+				<input type="email" name="email" required>
+				<p>Электронная почта</p>
+			</div>
+
+			<div class="wrapper__form__row">
+				<input type="password" name="password" required>
+				<p>Пароль</p>
+			</div>
+
+			<div class="wrapper__form__row">
+				<input type="password" name="password" required>
+				<p>Повторите пароль</p>
+			</div>
+
+			<div class="wrapper__form__row">
+				<input type="text" name="text" required>
+				<p>Ключ активации Главы корпорации</p>
+			</div>
+
+			<script>
+			$(".wrapper__form").validate();
+			</script>
+
+			<div class="wrapper__form__reg"><!-- <a href="#">РЕГИСТРАЦИЯ</a> --><input type="submit" name="ok" value="РЕГИСТРАЦИЯ"></div>
+
+		</form>
+
+		<a href="#"><p>Бесплатное использование магазина 14 дней!</p></a>
+		<div class="wrapper__arenda">
+			<p>Желаете палатить аренду сейчас?</p>
+			<a href="#"><p>Выбор тарифного плана и Оплата</p></a>
+		</div>
+	</div>
+
+</body>
+</html>
