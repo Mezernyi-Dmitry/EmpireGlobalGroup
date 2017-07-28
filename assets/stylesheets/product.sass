@@ -1,0 +1,256 @@
+@import "reset.css"
+@import "../js/collage/style.css"
+@import "../js/tabs/style.css"
+@import "../js/scroll/simple-scrollbar.css"
+
+html
+	width: 100%
+	height: 100%
+
+body
+	width: 100%
+	height: 100%
+	display: flex
+	justify-content: flex-start
+	flex-direction: column
+	align-items: center
+	flex-wrap: wrap
+	align-content: center
+	background: white
+
+.header
+	display: flex
+	justify-content: space-around
+	flex-direction: row
+	align-items: center
+	width: 100%
+	padding: 10px 0
+	background: rgba(229,229,229,.6)
+	border-bottom: outset
+	border-width: 1px
+	position: fixed
+	
+.header_items>a>img,
+.header_lang>a>img,
+.header_exit>a>img
+	width: 33px
+	height: 100%
+	max-height: 37px
+	min-height: 25px
+	border-radius: 10%
+	
+
+.header_center>a>img
+	width: 256px
+
+.header__menu
+	display: flex
+	justify-content: space-around
+	flex-direction: row
+	align-items: center
+	height: 40px
+	width: 40px
+
+.header__menu__items
+	display: flex
+	justify-content: space-around
+	flex-direction: row
+	align-items: center
+
+.header_items
+	background: linear-gradient(135deg, rgba(185, 160, 0, 0.8) 0%, rgba(254, 235, 100, 1) 50%, rgba(185, 160, 0, 0.8) 100%), linear-gradient(45deg, rgba(254, 235, 100, 1) 0%, rgba(185, 160, 0, 0.8) 50%, rgba(254, 235, 100, 1) 100%)
+	background-blend-mode: multiply
+	border-radius: 20%
+	margin-left: 10px
+
+.header_left
+	display: flex
+	justify-content: space-around
+	flex-direction: row
+	align-items: center
+	width: 100%
+
+.header_right
+	display: flex
+	justify-content: space-around
+	flex-direction: row
+	align-items: center
+	width: 100%
+
+.header_center	
+	margin: 0 4%
+
+.wrapper
+	height: 100%
+	width: 980px
+	display: inline-flex
+	margin-top: 65px
+
+.wrapper__left
+	width: 70%
+	display: flex
+	flex-direction: column
+
+.wrapper__right
+	width: 30%
+
+.wrapper__left__top
+	display: inline-flex
+	width: 100%
+
+.wrapper__left__top__left
+	width: 65%
+	display: inline-flex !important
+
+.wrapper__left__top__right
+	width: 35%
+	border: solid #ccc
+	border-width: 1px
+	border-radius: 5%
+
+.wrapper__left__bottom
+	display: inline-flex
+	justify-content: space-around
+
+.wrapper__left__bottom__left
+	width: 63%
+	height: 100%
+
+.wrapper__left__bottom__right
+	width: 35%
+	display: flex
+	flex-direction: column
+	justify-content: flex-start
+	align-items: center
+
+.wrapper__left__bottom__right__buy
+	display: inline-flex
+	justify-content: space-around
+	align-items: center
+	width: 100%
+	border: solid 1px gray 
+	border-radius: 5px
+
+.wrapper__left__bottom__right__buy-price-3>a>img,
+.wrapper__left__bottom__right__buy-price-4>a>img
+	width: 20px
+	height: 20px
+	margin: 0 4px 0 4px
+
+.wrapper__left__bottom__right__buy-price-2>input
+	width: 30px
+	border-radius: 2px
+	margin: 5px 0
+
+.wrapper__left__bottom__right__buy-price-4>input
+	color: green
+	background: white
+	border: none
+	font-size: 20px
+
+.wrapper__left__bottom__right__services>a>p
+	border: solid
+	border-width: 2px
+	border-color: gray 
+	border-radius: 40%
+	margin-top: 20px
+	padding: 10px
+
+.wrapper__left__bottom__right__services>a
+	text-decoration: none
+	color: black
+
+
+.wrapper__right
+	padding-left: 15px
+
+.wrapper__right__top
+	width: 100%
+	height: 30px
+	display: flex
+	justify-content: space-around
+	align-items: center
+
+.wrapper__right__top>a
+	width: 100%
+	height: 100%
+	display: flex
+	justify-content: space-around
+	align-items: center
+	border: solid 1px black
+	color: black
+	text-decoration: none
+
+.wrapper__right__bottom
+	width: 100%
+	height: calc(100% - 32px)
+
+.container
+	position: relative
+	overflow: auto
+	width: 100%
+	height: 100%
+
+.content
+	width: 100%
+	height: 100%
+	display: inline-flex
+	flex-direction: row
+	flex-wrap: wrap
+	justify-content: space-between
+	align-items: flex-start
+	align-content: flex-start
+
+.wrapper__right__bottom__container
+	width: 140px
+	height: 140px
+	background: url(../img/product/smile.jpg) no-repeat
+	background-size: cover
+	border: solid gray 1px
+	border-radius: 5px
+	display: inline-flex
+	align-items: flex-end
+	justify-content: space-around
+	margin-top: 10px
+
+.wrapper__right__bottom__container_client>a>img
+	width: 20px
+	height: 20px
+	border-radius: 3px
+	background: white
+	// padding-top: 3px
+	border: solid 1px gray
+
+.wrapper__right__bottom__container_noclient>a>img
+	width: 20px
+	height: 20px
+	border-radius: 3px
+	background: white
+	// padding-top: 3px
+	border: solid 1px gray
+
+.wrapper__right__bottom__container_owner>a
+	height: 100%
+	display: inline-flex
+	align-items: flex-end
+	justify-content: space-around
+	padding-bottom: 5px
+	text-decoration: none
+	color: black
+
+.wrapper__right__bottom__container_owner>a>p
+	border: solid 1px gray 
+	text-decoration: none
+	color: black
+
+.footer
+	display: inline-flex
+	justify-content: space-around
+	flex: 0 0 auto
+	position: fixed
+	width: 100%
+	margin-top: calc(100vh - 20px)
+
+.footer>a 
+	text-decoration: none
+	color: black

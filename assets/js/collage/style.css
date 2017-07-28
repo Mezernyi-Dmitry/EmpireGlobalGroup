@@ -1,0 +1,33 @@
+#largeImg {
+  border: solid 1px #ccc; 
+  width: 325px ;
+  height: 325px ;
+  padding: 5px ;
+  border-radius: 5%;
+}
+
+#thumbs a img{
+  border: solid 1px #ccc ;
+  width: 70px ;
+  height: 70px ;
+  padding: 3px ;
+  margin: 2px ;
+  float: left ;
+  display: inline-block;
+  border-radius: 10%;
+}
+
+#thumbs a:hover {
+  border-color: rgb(229, 229, 229) ;
+}
+
+#thumbs li {
+  list-style: none ;
+}
+
+#thumbs {
+  /*margin: -30px 0 0 -2px;*/
+  padding: 0 ;
+  padding-right: 10px
+}
+
